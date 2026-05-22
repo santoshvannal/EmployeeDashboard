@@ -1,0 +1,171 @@
+/* Toolbar */
+.table-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+/* Search Field */
+.search-field {
+  width: 300px !important;
+}
+
+/* Export Button */
+.btn-export.MuiButton-root {
+  min-width: 130px;
+  height: 42px;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  font-size: 0.875rem;
+  text-transform: none !important;
+  letter-spacing: 0.3px;
+}
+
+/* Table Container  */
+.table-container.MuiPaper-root {
+  max-height: 600px;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1) !important;
+  margin-top: 8px;
+  overflow: auto;
+
+}
+
+
+
+ /* Pagination Controls  */
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 16px 8px;
+  flex-wrap: wrap;
+}
+
+.page-info {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+  min-width: 60px;
+  text-align: center;
+}
+
+ /* Prev / Next Buttons  */
+.btn-page.MuiButton-root {
+  min-width: 100px;
+  height: 38px;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  font-size: 0.8rem;
+  text-transform: none !important;
+}
+
+.btn-page.MuiButton-root.Mui-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+ /* Page Size Selector */
+.page-size-select {
+  display: block;
+  margin: 8px 16px 12px;
+  padding: 8px 12px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  color: #374151;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.page-size-select:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.12);
+}
+
+ /* Table Header Cell */
+.table-header-cell.MuiTableCell-root {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background-color: #1976d2 !important;
+  color: #ffffff !important;
+  white-space: nowrap;
+  user-select: none;
+  transition: background-color 0.15s ease;
+}
+
+.table-header-cell.MuiTableCell-root:hover {
+  background-color: #1565c0 !important;
+}
+
+ /* Sort Icon */
+.sort-icon {
+  margin-left: 6px;
+  font-size: 0.7rem;
+  vertical-align: middle;
+  opacity: 0.85;
+}
+
+/* Table Body Rows */
+.MuiTableBody-root .MuiTableRow-root {
+  border-bottom: 1px solid #e5e7eb;
+  transition: background-color 0.15s ease;
+}
+
+.MuiTableBody-root .MuiTableRow-root:hover {
+  background-color: #f0f7ff !important;
+}
+
+.MuiTableBody-root .MuiTableRow-root:nth-of-type(even) {
+  background-color: #f9fafb;
+}
+
+.MuiTableBody-root .MuiTableCell-root {
+  padding: 10px;
+  font-size: 0.8rem;
+  color: #374151;
+  white-space: nowrap;
+}
+
+
+
+/* Responsive  */
+@media (max-width: 768px) {
+  .table-toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-field {
+    width: 100% !important;
+  }
+
+  .btn-export.MuiButton-root {
+    width: 100%;
+  }
+
+  .pagination-controls {
+    gap: 8px;
+  }
+
+  .btn-page.MuiButton-root {
+    min-width: 80px;
+  }
+}
+
+
+
+/* 
+.MuiTableRow-root .css-1xtozoh-MuiTableRow-root{
+  height: 8px !important;
+} */

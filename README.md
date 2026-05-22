@@ -123,3 +123,8 @@ Initially, virtual scrolling was explored for handling large datasets more effic
 ## Author
 
 Santosh Vannal
+
+
+## Preview
+
+![Preview](./screenshot.png)

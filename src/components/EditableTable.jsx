@@ -69,7 +69,7 @@ const EditableTable = ({employee}) => {
 
   return (
     <>
-      {/* ── Toolbar ─────────────────────────────── */}
+   
       <div className="table-toolbar">
         <TextField
           label="Search Employee..."
@@ -88,13 +88,9 @@ const EditableTable = ({employee}) => {
         </Button>
       </div>
 
-      {/* ── Table Container ──────────────────────── */}
+  
       <TableContainer component={Paper} className="table-container">
 
-        {/* ── Pagination Controls ──────────────── */}
-      
-
-        {/* ── Page Size Selector ───────────────── */}
         
 
             <div className="pagination-controls">
@@ -139,7 +135,7 @@ const EditableTable = ({employee}) => {
           
         </div>
 
-        {/* ── Table ────────────────────────────── */}
+        
         <Table stickyHeader>
           <TableHead>
             <TableRow>
